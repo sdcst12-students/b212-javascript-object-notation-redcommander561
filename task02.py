@@ -25,5 +25,5 @@ x = json.loads(data)
 for i in x:
     print(i)
 
-print(f"the menu for today is {x['menu']}")
-
+print(f"the menu is {x['menu']}")
+print(type(data))
