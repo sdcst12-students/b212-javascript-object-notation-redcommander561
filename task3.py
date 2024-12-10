@@ -7,7 +7,6 @@ x = json.loads(data)
 for i in x:
     print(i)
 
-
 print("\n")
 lat = x['latitude']
 long = x['longitude']

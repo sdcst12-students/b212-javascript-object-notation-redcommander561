@@ -26,4 +26,4 @@ for i in x:
     print(i)
 
 print(f"the menu is {x['menu']}")
-print(type(data))
+
