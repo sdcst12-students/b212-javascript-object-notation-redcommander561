@@ -24,6 +24,8 @@ data = req.text
 x = json.loads(data)
 for i in x:
     print(i)
+#date = x['date']
+
 
 print(f"the menu is {x['menu']}")
 

@@ -12,8 +12,9 @@ lat = x['latitude']
 long = x['longitude']
 time = x['timezone']
 daily = x['daily']
-
+temp = x['daily']['temperature_2m_max']
+temp.sort()
 print(f" here is the weather statistics in Vancouver for today!\n")
-print(f"latitude: {lat}\n longitude: {long}\n timezone: {time}\n weather stats: \n{daily} ")
+print(f"latitude: {lat}\nlongitude: {long}\ntimezone: {time}\ntemperatures today from lowest to highest:\n{temp} ")
 
 
